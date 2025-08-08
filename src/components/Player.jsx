@@ -27,14 +27,14 @@ export const Player = () => {
                 <p>3:20</p>
             </div>
         </div>
-        <div className='hidden lg:flex items-center gap-2 opacity-75'>
+        <div className='hidden lg:flex items-center gap-2 opacity-75 cursor-pointer'>
             <img className='w-4' src={assets.plays_icon} alt="" />
             <img className='w-4' src={assets.mic_icon} alt="" />
             <img className='w-4' src={assets.queue_icon} alt="" />
             <img className='w-4' src={assets.speaker_icon} alt="" />
             <img className='w-4' src={assets.volume_icon} alt="" />
             <div className='w-20 bg-slate-50 h-1 rounded'>
-                
+
             </div>
             <img className='w-4' src={assets.mini_player_icon} alt="" />
             <img className='w-4' src={assets.zoom_icon} alt="" />
